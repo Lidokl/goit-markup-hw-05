@@ -70,8 +70,12 @@
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        
+        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
       </section>
+
+
+       
 
       <!-- Особенности-->
       <section class="section">
@@ -309,7 +313,7 @@
           
             <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
+               <svg class="client-icon"width="106" height="60">
                 <use class="client-icon-img" href="./images/symbol-defs.svg#icon-Union-1" ></use>
               </svg>
               </a>
@@ -317,32 +321,32 @@
 
              <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
-                <use class="" href="./images/symbol-defs.svg#icon-group-1" width="106" height="60"></use>
+               <svg class="client-icon"width="106" height="60">
+                <use class="" href="./images/symbol-defs.svg#icon-group-1" ></use>
               </svg>
               </a>
               </li>
 
             <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
-                <use class="" href="./images/symbol-defs.svg#icon-Logo" width="106" height="60"></use>
+               <svg class="client-icon"width="106" height="60">
+                <use class="" href="./images/symbol-defs.svg#icon-Logo"></use>
               </svg>
               </a>
               </li>
 
            <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
-                <use class="" href="./images/symbol-defs.svg#icon-Logo-1" width="106" height="60"></use>
+               <svg class="client-icon"width="106" height="60">
+                <use class="" href="./images/symbol-defs.svg#icon-Logo-1" ></use>
               </svg>
               </a>
               </li>
 
             <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
-                <use class="" href="./images/symbol-defs.svg#icon-Logo-2" width="106" height="60"></use>
+               <svg class="client-icon"width="106" height="60">
+                <use class="" href="./images/symbol-defs.svg#icon-Logo-2" ></use>
               </svg>
               </a>
               </li>
@@ -350,8 +354,8 @@
 
             <li class="client-item">
              <a href="" class="client-link"> 
-               <svg class="client-icon">
-                <use class="" href="./images/symbol-defs.svg#icon-Logo-3" width="106" height="60"></use>
+               <svg class="client-icon"width="106" height="60">
+                <use class="" href="./images/symbol-defs.svg#icon-Logo-3" ></use>
               </svg>
               </a>
               </li>
@@ -425,6 +429,18 @@
       </div>
       
     </footer>
+
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close" data-modal-close>
+          <svg width="30" height="30">
+            <use class="modal-icon" href="./images/symbol-defs-1.svg#icon-close-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
 
